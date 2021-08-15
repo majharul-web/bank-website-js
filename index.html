@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Bank || Website</title>
+
+    <!-- tailwind  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <h1 class="text-6xl text-center mt-16">
+        Welcome to My
+        <span class="font-semibold text-purple-500">Bap-er-Bank</span>!!!
+      </h1>
+    </header>
+
+    <!-- main start -->
+    <main>
+      <section class="bg-green-100 w-3/4 mx-auto mt-10 p-8 rounded">
+        <h3 class="text-3xl">Please Login</h3>
+        <div>
+          <input
+            id="email-field"
+            class="
+              border
+              block
+              mt-5
+              border-gray-200
+              rounded
+              w-3/4
+              px-4
+              py-2
+              focus:outline-none focus:bg-red-200
+            "
+            type="email"
+            placeholder="enter your email"
+          />
+          <input
+            id="password-field"
+            class="
+              border
+              block
+              mt-5
+              border-gray-200
+              rounded
+              w-3/4
+              px-4
+              py-2
+              focus:outline-none focus:bg-red-200
+            "
+            type="password"
+            placeholder="enter your password"
+          />
+          <button id="submit-button" class="bg-red-400 px-5 py-2 rounded mt-5 font-medium text-white">
+            submit
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- js file add -->
+    <script src="js/login.js"></script>
+  </body>
+</html>
